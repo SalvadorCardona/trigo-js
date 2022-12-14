@@ -1,7 +1,7 @@
-export const pythagore = (a: number, b: number): number =>
+export const pythagore = (adjacentX: number, opposseY: number): number =>
   Math.sqrt(
-    Math.pow(a, 2)
-    + Math.pow(b, 2)
+    Math.pow(adjacentX, 2)
+    + Math.pow(opposseY, 2)
   )
 
 export const tangente = (adjacentX: number, opposseY: number): number => {

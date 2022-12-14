@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build --base=https://salvadorcardona.github.io/trigo-js/",
+    "deploy-local": "gh-pages -d dist",
+    "deploy-gh": "pnpm build && pnpm deploy-local",
     "preview": "vite preview"
   },
   "devDependencies": {
